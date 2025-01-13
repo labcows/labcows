@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @labcows
 - 👀 I’m interested in meditation, yoga and cats
-- 🌱 I’m currently learning C/C++, Computer Graphics, D3D11
+- 🌱 I’m currently making a 3D game engine
 - 📫 How to reach me labcow3@gmail.com
   
 <!---
