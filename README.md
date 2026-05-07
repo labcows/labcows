@@ -4,7 +4,7 @@ Hi, I’m Hyunwoo, a software engineer 💻 with a proven history of building gl
 
 ---
 
-### Some of My Proudest Achievements
+## Some of My Proudest Achievements
   
 - Building and maintaining a backend payment system that handles mid-six figure USD monthly transactions across 6+ enterprise-level companies' online shopping malls
 
@@ -14,14 +14,14 @@ Hi, I’m Hyunwoo, a software engineer 💻 with a proven history of building gl
 
 ---
 
-### Case Study
+## Case Study
 
 - Engineering: [Preventing Silent Payment State Corruption by Fixing `UnitOfWork` Lifetime Ownership](https://github.com/labcows/labcows/blob/0fa720797fe5ce19e9f820a208dbb6d8b85a03ec/Case%20Study%3A%20Engineering.md)
 - QA: [Resolving system-level risk through edge-case testing](https://github.com/labcows/labcows/blob/0fa720797fe5ce19e9f820a208dbb6d8b85a03ec/Case%20Study%3A%20Quality%20Assuarance.md)
 
 ---
 
-### Outside of Work
+## Outside of Work
 
 I love doing yoga 💃, meditation 💤, and watching wildlife: animals 🐻‍❄️, trees 🌲, and flowers 🌻. (These days I'm enjoying seeing snipes 🐦 and ducks 🦆 on the lake near my place!) Oh, also a cat daddy 🐱💚
 
@@ -29,7 +29,7 @@ I’m a very curious person and find huge satisfaction in identifying and solvin
 
 ---
 
-### Skills
+## Skills
 
 ##### 𝗛𝗮𝗿𝗱 𝗦𝗸𝗶𝗹𝗹𝘀: Python, C/C++, TypeScript, PostgreSQL, Git, Docker
 
