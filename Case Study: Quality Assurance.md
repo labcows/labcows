@@ -1,4 +1,4 @@
-# **Case Study: Resolve system-level risk through edge-case testing**
+# **Case Study: Resolve System-Level Risk Through Edge-Case Testing**
 
 ## Table of Contents
 
