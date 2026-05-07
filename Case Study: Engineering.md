@@ -1,13 +1,13 @@
 
 # Case Study: Preventing Silent Payment State Corruption by Fixing `UnitOfWork`Lifetime Ownership
 
-> **Status**: Draft  
+> **Status**: Draft (The code snippets should be revised)
 > **Confidentiality**: This case study is following Non-Disclosure Agreement. No employer, product, vendor, or domain-specific names are included.
 ---
 
 ## Summary
 
-I diagnosed and fixed a concurrency bug in an async Python payment service where a shared SQLAlchemy `UnitOfWork instance caused intermittent lost database writes under concurrent requests. The root cause was that the service used only one `UnitOfWork` instance shared across requests through Python's default-argument evaluation and boot-time dependency injection. Binding new ORM session to the `UnitOfWork` instance per request did overwrite current session, causing critical payment state corruption.
+I diagnosed and fixed a concurrency bug in an async Python payment service where a shared SQLAlchemy `UnitOfWork` instance caused intermittent lost database writes under concurrent requests. The root cause was that the service used only one `UnitOfWork` instance shared across requests through Python's default-argument evaluation and boot-time dependency injection. Binding new ORM session to the `UnitOfWork` instance per request did overwrite current session, causing critical payment state corruption.
 
 I fixed this issue by instantiating and injecting a new `UnitOfWork` object per request. This ensured every command handled its own database session. After the fix, the deliberately-racy reproducer no longer produced shared session IDs or lost writes.
 
