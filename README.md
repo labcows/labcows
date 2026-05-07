@@ -1,4 +1,4 @@
-<font size="15
+<font size="15>
 
 Hi, I’m Hyunwoo, a software engineer 💻 with a proven history of building global e-commerce payment systems and performing QA for both video games 🎲 and AR/XR training platforms 🕶️.
 
