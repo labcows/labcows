@@ -33,7 +33,7 @@ Hi, I’m Hyunwoo, a software engineer with a proven history of building global 
 
 - Diagnosing and eliminating a recurring production bug that was causing 50+ payment failures per year for enterprise-level clients, restoring full reliability to the payment system.
 
-- Case Study: [Preventing Silent Payment State Corruption by Fixing `UnitOfWork` Lifetime Ownership](https://github.com/labcows/labcows/blob/0fa720797fe5ce19e9f820a208dbb6d8b85a03ec/Case%20Study%3A%20Engineering.md)
+- Case Study: [Preventing Silent Payment State Corruption by Fixing `UnitOfWork` Lifetime Ownership](https://github.com/labcows/labcows/blob/main/Case%20Study%3A%20Engineering.md)
 
 #### Quality Assurance
 
@@ -41,7 +41,7 @@ Hi, I’m Hyunwoo, a software engineer with a proven history of building global 
 
 - Improved user experience by catching 10+ game-crashing defects before official launch, contributing to a stable release that earned 79% positive ratings from 771 Steam users and 4.24/5.0 from 426 PlayStation users.
 
-- Case Study: [Resolving system-level risk through edge-case testing](https://github.com/labcows/labcows/blob/0fa720797fe5ce19e9f820a208dbb6d8b85a03ec/Case%20Study%3A%20Quality%20Assurance.md)
+- Case Study: [Resolving System-Level Risk Through Edge-Case Testing](https://github.com/labcows/labcows/blob/main/Case%20Study:%20Quality%20Assurance.md)
 
 ---
 
