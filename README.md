@@ -1,63 +1,91 @@
-### 👽 About Me
+## About Me
 
-Hi, I’m Hyunwoo, a software engineer with a proven history of building global e-commerce payment systems and performing QA for both video games and AR/XR training platforms.
+Hi, I'm Hyunwoo, a software engineer with experience building global e-commerce payment systems and performing QA for video games and AR/XR training platforms.
 
-📍 Currently based in Saskatchewan, Canada  
-🇨🇦 **Open Work Permit holder**
+Currently based in Saskatchewan, Canada  
+Open Work Permit holder
 
 <div align="center">
-  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hyunwoo-cheon/)
-[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:milcamboo@gmail.com)
-
+  <a href="https://www.linkedin.com/in/hyunwoo-cheon/" target="_blank" rel="noopener noreferrer">
+    <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="mailto:milcamboo@gmail.com" target="_blank" rel="noopener noreferrer">
+    <img alt="Email" src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
 </div>
 
 ---
 
-### 🎨 Skills
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+## Skills
+
+<p>
+  <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img alt="C++" src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" />
+  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+  <img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
+  <img alt="Three.js" src="https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=threedotjs&logoColor=white" />
+  <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img alt="SQLAlchemy" src="https://img.shields.io/badge/SQLAlchemy-D71F00?style=for-the-badge&logo=sqlalchemy&logoColor=white" />
+  <img alt="Git" src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+  <img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img alt="Jira" src="https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white" />
+</p>
 
 ---
 
-### ✨ Some of My Proudest Achievements
+## Some of My Proudest Achievements
 
-#### Software Engineering
-
-- **Case Study**: [Preventing Silent Payment State Corruption by Fixing `UnitOfWork` Lifetime Ownership](https://github.com/labcows/labcows/blob/main/Case%20Study%3A%20Engineering.md)
-
-- Building and maintaining a backend payment system that handles mid-six figure USD monthly transactions across 6+ enterprise-level companies' online shopping malls
-
-- Diagnosing and eliminating a recurring production bug that was causing 50+ payment failures per year for enterprise-level clients, restoring full reliability to the payment system.
-
-#### Quality Assurance
-
-- **Case Study**: [Resolving System-Level Risk Through Edge-Case Testing](https://github.com/labcows/labcows/blob/main/Case%20Study:%20Quality%20Assurance.md)
-
-- Contributed to achieving 100K+ global purchases, 252% YoY company-wide revenue growth, and a 34-position climb in 2024 Korean game-studio revenue rankings by reporting 615+ issues and completing the full validation schedule on time.
-
-- Improved user experience by catching 10+ game-crashing defects before official launch, contributing to a stable release that earned 79% positive ratings from 771 Steam users and 4.24/5.0 from 426 PlayStation users.
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <a href="./automata-payment-portfolio-pure.md">
+        <img src="./assets/automata.png" width="120" alt="Automata logo" />
+      </a>
+    </td>
+    <td align="center" width="33%">
+      <a href="./newcore-games-qa-portfolio-pure.md">
+        <img src="./assets/newcore.png" width="140" alt="NewCore Games logo" />
+      </a>
+    </td>
+    <td align="center" width="33%">
+      <a href="./raonsecure-qa-portfolio-pure.md">
+        <img src="./assets/raonsecure.jpg" width="120" alt="RaonSecure logo" />
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" valign="top">
+      <a href="./automata-payment-portfolio-pure.md"><strong>Automata</strong></a><br />
+      <sub>Backend Payment Systems</sub><br /><br />
+      <a href="./automata-payment-portfolio-pure.md">
+        Supported <strong>$500K+ monthly payment volume</strong> across enterprise shopping-mall operations while helping maintain <strong>99.9% payment reliability</strong>.
+      </a>
+    </td>
+    <td align="center" valign="top">
+      <a href="./newcore-games-qa-portfolio-pure.md"><strong>NewCore Games</strong></a><br />
+      <sub>Console / PC Game QA</sub><br /><br />
+      <a href="./newcore-games-qa-portfolio-pure.md">
+        Helped ship a launch that reached <strong>100K+ global purchases</strong> and contributed to <strong>252% YoY revenue growth</strong>.
+      </a>
+    </td>
+    <td align="center" valign="top">
+      <a href="./raonsecure-qa-portfolio-pure.md"><strong>RaonSecure</strong></a><br />
+      <sub>AR/XR Platform QA</sub><br /><br />
+      <a href="./raonsecure-qa-portfolio-pure.md">
+        Reported <strong>150+ issues</strong> across Client, WebView, and Launcher while validating <strong>40+ AR/XR training modules</strong>.
+      </a>
+    </td>
+  </tr>
+</table>
 
 ---
 
-### 🔬Case Study
+## Outside of Work
 
-- Engineering: [Preventing Silent Payment State Corruption by Fixing `UnitOfWork` Lifetime Ownership](https://github.com/labcows/labcows/blob/0fa720797fe5ce19e9f820a208dbb6d8b85a03ec/Case%20Study%3A%20Engineering.md)
-- QA: [Resolving system-level risk through edge-case testing](https://github.com/labcows/labcows/blob/0fa720797fe5ce19e9f820a208dbb6d8b85a03ec/Case%20Study%3A%20Quality%20Assurance.md)
-
----
-
-### 🚎 Outside of Work
-
-I love doing yoga, meditation, and watching wildlife: animals, trees, and flowers. (These days I'm enjoying seeing snipes and ducks on the lake near my place!) Oh, also a cat daddy 🐱💚
+I enjoy yoga, meditation, and spending time around nature. I also like observing wildlife, trees, and flowers near the lake where I live.
 
 ---
 
-### 💪 Open to Solve Problem Together!
+## Open To Solving Problems Together
 
-I’m a very curious person and find huge satisfaction in identifying and solving problems. If you're working on a problem you'd like to talk through, send me a message, I'd love to hear about it!
+I'm deeply curious about complex systems and find a lot of satisfaction in identifying, explaining, and solving problems. If you're working through something technical or product-related, I'd be happy to talk.
