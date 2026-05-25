@@ -17,6 +17,8 @@ Open Work Permit holder based in SK, Canada 🇨🇦
 
 ## 🎥 Skills
 
+These are technologies I have used across professional work and personal projects. I proactively learn the languages and tools with curiosity 👀 to solve the problem. 
+
 <p>
   <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
   <img alt="C++" src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" />
