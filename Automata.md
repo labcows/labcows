@@ -64,56 +64,13 @@ My role was to build and maintain stable payment features, provider integrations
 
 Harmony Transaction was a backend payment-processing service built with FastAPI, SQLAlchemy, and PostgreSQL. The architecture followed a Domain-Driven Design style similar to the structure popularized by *Architecture Patterns with Python*, separating domain behavior, persistence, transaction boundaries, and application orchestration.
 
-```mermaid
-%%{init: {"theme": "base", "themeVariables": {"fontSize": "18px", "fontFamily": "Inter, Arial, sans-serif"}, "flowchart": {"nodeSpacing": 22, "rankSpacing": 28, "curve": "basis"}} }%%
-flowchart TB
-  subgraph EntryPoints["Entry Points"]
-    direction LR
-    Client["Online Shopping Mall<br/>Backoffice"] --> API["FastAPI API"]
-    Jobs["Scheduled Jobs<br/>Recovery Scripts"] --> Worker["Internal Worker"]
-  end
+<p align="center">
+  <img src="./assets/System%20Design.drawio.svg" alt="Automata payment system diagram" />
+</p>
 
-  API --> Bootstrap{"Bootstrap"}
-  Worker --> Bootstrap
-
-  subgraph ServiceLayer["Service Layer"]
-    direction LR
-    Bus["In-process<br/>Message Bus"]
-    Bus --> Handlers["Command & Event<br/>Handlers"]
-    Handlers --> UoW["Unit of Work"]
-  end
-  Bootstrap --> Bus
-
-  subgraph CoreModel["Domain"]
-    Domain["Payment Domain Model"]
-  end
-
-  subgraph Adapters["Adapters"]
-    direction LR
-    Repo["SQLAlchemy<br/>Repositories"]
-    DB[("PostgreSQL")]
-    Providers["Payment / Point /<br/>Gift Card APIs"]
-  end
-
-  Handlers --> Domain
-  UoW --> Repo
-  Repo --> DB
-  Repo -. Rehydrates aggregates .-> Domain
-  Domain -. Domain events .-> Bus
-  Handlers --> Providers
-
-  classDef entry fill:#F8FAFC,stroke:#64748B,stroke-width:1px,color:#0F172A;
-  classDef core fill:#EAF4FF,stroke:#2563EB,stroke-width:1.5px,color:#0F172A;
-  classDef domain fill:#ECFDF5,stroke:#059669,stroke-width:1.5px,color:#064E3B;
-  classDef adapter fill:#FFF7ED,stroke:#EA580C,stroke-width:1.5px,color:#7C2D12;
-  classDef data fill:#F1F5F9,stroke:#475569,stroke-width:1.5px,color:#0F172A;
-
-  class Client,Jobs,API,Worker entry;
-  class Bootstrap,Bus,Handlers,UoW core;
-  class Domain domain;
-  class Repo,Providers adapter;
-  class DB data;
-```
+<p align="center">
+  <sub>Conceptual overview of the payment-processing architecture.</sub>
+</p>
 
 | Component | Role |
 | --- | --- |
