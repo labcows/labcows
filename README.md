@@ -1,9 +1,9 @@
-## About Me
+## 👽 About Me
 
-Hi, I'm Hyunwoo, a software engineer with experience building global e-commerce payment systems and performing QA for video games and AR/XR training platforms.
+Hi, I'm Hyunwoo, a software engineer with experience building global e-commerce payment systems 💵 and performing QA for video games 📼 and AR/XR training platforms.
 
-Currently based in Saskatchewan, Canada  
-Open Work Permit holder
+Open Work Permit holder based in SK, Canada 🇨🇦
+
 
 <div align="center">
   <a href="https://www.linkedin.com/in/hyunwoo-cheon/" target="_blank" rel="noopener noreferrer">
@@ -14,9 +14,8 @@ Open Work Permit holder
   </a>
 </div>
 
----
 
-## Skills
+## 🎥 Skills
 
 <p>
   <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
@@ -31,9 +30,8 @@ Open Work Permit holder
   <img alt="Jira" src="https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white" />
 </p>
 
----
 
-## Some of My Proudest Achievements
+## 🚂 Some of My Proudest Achievements
 
 <table>
   <tr>
@@ -75,14 +73,14 @@ Open Work Permit holder
   </tr>
 </table>
 
----
 
-## Outside of Work
 
-I enjoy yoga, meditation, and spending time around nature. I also like observing wildlife, trees, and flowers near the lake where I live.
+## 🚎 Outside of Work
 
----
+I enjoy yoga, meditation, and spending time around nature. I also like observing wildlife 🐌, trees 🌴, and flowers 🌺 near the lake where I live.
 
-## Open To Solving Problems Together
+
+
+## 🙌 Open To Solving Problems Together
 
 I'm deeply curious about complex systems and find a lot of satisfaction in identifying, explaining, and solving problems. If you're working through something technical or product-related, I'd be happy to talk.
