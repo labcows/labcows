@@ -63,7 +63,9 @@ Selected case studies showing business impact, technical ownership, and product-
       </div>
       <br />
       <strong>$500K+ monthly payment volume</strong> across enterprise shopping-mall operations while helping maintain <strong>99.9% payment reliability</strong>.<br /><br />
-      <a href="./Automata.md" target="_blank" rel="noopener noreferrer"><strong>View Portfolio</strong></a>
+      <div align="center">
+        <a href="./Automata.md" target="_blank" rel="noopener noreferrer"><strong>View Portfolio</strong></a>
+      </div>
     </td>
     <td align="left" valign="top">
       <div align="center">
@@ -72,7 +74,9 @@ Selected case studies showing business impact, technical ownership, and product-
       </div>
       <br />
       Shipping <strong><i>"The Devil within Satgat" </i> </strong> that reached <strong>100K+ global purchases</strong> and contributed to <strong>252% YoY revenue growth</strong>.<br /><br />
-      <a href="./NewCore.md" target="_blank" rel="noopener noreferrer"><strong>View Portfolio</strong></a>
+      <div align="center">
+        <a href="./NewCore.md" target="_blank" rel="noopener noreferrer"><strong>View Portfolio</strong></a>
+      </div>
     </td>
     <td align="left" valign="top">
       <div align="center">
@@ -81,7 +85,9 @@ Selected case studies showing business impact, technical ownership, and product-
       </div>
       <br />
       Reported <strong>150+ issues</strong> across Client, WebView, and Launcher while validating <strong>40+ AR/XR training modules</strong>.<br /><br />
-      <a href="./RaonSecure.md" target="_blank" rel="noopener noreferrer"><strong>View Portfolio</strong></a>
+      <div align="center">
+        <a href="./RaonSecure.md" target="_blank" rel="noopener noreferrer"><strong>View Portfolio</strong></a>
+      </div>
     </td>
   </tr>
 </table>
