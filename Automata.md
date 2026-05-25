@@ -18,6 +18,33 @@ Served as backend engineer for Automata's online payment systems, processing ove
 
 [Automata](https://www.automata.ooo/) is a B2B online shopping platform service that provides branded online shopping mall infrastructure, including website operations and online payment systems, for major enterprise clients. In 2023, Automata served over 10 B2B clients and generated $2.7M in annual revenue.
 
+<table>
+  <tr>
+    <td width="33%" align="center">
+      <a href="https://www.shoppingeasy.co.kr/" target="_blank" rel="noopener noreferrer">
+        <img src="./assets/Automata%20-%201.png" alt="Shopping Easy online shopping mall sample 1" />
+      </a>
+    </td>
+    <td width="33%" align="center">
+      <a href="https://www.shoppingeasy.co.kr/" target="_blank" rel="noopener noreferrer">
+        <img src="./assets/Automata%20-%202.png" alt="Shopping Easy online shopping mall sample 2" />
+      </a>
+    </td>
+    <td width="33%" align="center">
+      <a href="https://www.shoppingeasy.co.kr/" target="_blank" rel="noopener noreferrer">
+        <img src="./assets/Automata%20-%203.png" alt="Shopping Easy online shopping mall sample 3" />
+      </a>
+    </td>
+  </tr>
+</table>
+
+<p align="center">
+  <sub>
+    Sample online shopping mall launched through Automata's platform:
+    <a href="https://www.shoppingeasy.co.kr/" target="_blank" rel="noopener noreferrer">ShoppingEasy</a>
+  </sub>
+</p>
+
 When I joined in December 2022, the payment system was expanding across multiple marketplaces while the number of launched online stores increased by 60% during my tenure. The platform needed to evolve beyond card payments and support points, coupons, gift cards, subscriptions, and provider-specific checkout rules.
 
 My role was to build and maintain stable payment features, provider integrations, recovery jobs, and backoffice workflows without sacrificing transaction accuracy, auditability, or operational reliability. I worked as Backend Engineer I and Backend Engineer II, receiving a promotion in April 2023.
@@ -36,6 +63,40 @@ My role was to build and maintain stable payment features, provider integrations
 ## System Context
 
 Harmony Transaction was a backend payment-processing service built with FastAPI, SQLAlchemy, and PostgreSQL. The architecture followed a Domain-Driven Design style similar to the structure popularized by *Architecture Patterns with Python*, separating domain behavior, persistence, transaction boundaries, and application orchestration.
+
+```mermaid
+flowchart TB
+  Client["Online Shopping Mall / Backoffice"] --> API["API"]
+  Recovery["Scheduled Jobs / Recovery Scripts"] --> Worker["Event Consumer / Worker"]
+
+  API --> Bootstrap{"Bootstrap"}
+  Worker --> Bootstrap
+  API -- Commands --> Bus["Message Bus"]
+  Worker -- Commands --> Bus
+  Bootstrap -- Initialize --> Bus
+
+  subgraph ServiceLayer["Service Layer"]
+    Bus --> Handlers["Handlers"]
+    Handlers --> UoW["Unit of Work"]
+  end
+
+  subgraph DomainLayer["Domain"]
+    Domain["Payment Domain Logic"]
+  end
+
+  subgraph Adapters["Adapters"]
+    Repo["Repositories"]
+    DB[("PostgreSQL")]
+    Providers["Payment / Point / Gift Card Providers"]
+  end
+
+  Handlers --> Domain
+  UoW --> Repo
+  Repo --> DB
+  Repo --> Domain
+  Handlers --> Providers
+  Providers --> Handlers
+```
 
 | Component | Role |
 | --- | --- |
