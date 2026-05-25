@@ -35,42 +35,51 @@ These are technologies I have used across professional work and personal project
 
 ## 🚂 Achievements
 
-Here are selected portfolio pages showing some of my proudest achievement as Software Engineer and QA Analyst.
+Selected case studies showing business impact, technical ownership, and product-quality improvements.
 
 <table>
   <tr>
     <td align="center" width="33%">
-      <a href="./Automata.md" target="_blank" rel="noopener noreferrer">
+      <a href="https://www.automata.ooo" target="_blank" rel="noopener noreferrer">
         <img src="./assets/automata.png" width="120" alt="Automata logo" />
       </a>
     </td>
     <td align="center" width="33%">
-      <a href="./NewCore.md" target="_blank" rel="noopener noreferrer">
+      <a href="https://www.newcoregames.com/" target="_blank" rel="noopener noreferrer">
         <img src="./assets/newcore.png" width="140" alt="NewCore Games logo" />
       </a>
     </td>
     <td align="center" width="33%">
-      <a href="./RaonSecure.md" target="_blank" rel="noopener noreferrer">
+      <a href="https://www.raon.com/en" target="_blank" rel="noopener noreferrer">
         <img src="./assets/raonsecure.jpg" width="120" alt="RaonSecure logo" />
       </a>
     </td>
   </tr>
   <tr>
-    <td align="center" valign="top">
-      <strong>Automata</strong><br />
-      <sub>Backend Payment Systems</sub><br /><br />
-      Supported <strong>$500K+ monthly payment volume</strong> across enterprise shopping-mall operations while helping maintain <strong>99.9% payment reliability</strong>.<br /><br />
+    <td align="left" valign="top">
+      <div align="center">
+        <strong>Automata</strong><br />
+        <sub>Backend Payment Systems</sub>
+      </div>
+      <br />
+      <strong>$500K+ monthly payment volume</strong> across enterprise shopping-mall operations while helping maintain <strong>99.9% payment reliability</strong>.<br /><br />
       <a href="./Automata.md" target="_blank" rel="noopener noreferrer"><strong>View Portfolio</strong></a>
     </td>
-    <td align="center" valign="top">
-      <strong>NewCore Games</strong><br />
-      <sub>Console / PC Game QA</sub><br /><br />
-      Helped ship a launch that reached <strong>100K+ global purchases</strong> and contributed to <strong>252% YoY revenue growth</strong>.<br /><br />
+    <td align="left" valign="top">
+      <div align="center">
+        <strong>NewCore Games</strong><br />
+        <sub>Console / PC Game QA</sub>
+      </div>
+      <br />
+      Shipping <strong><i>"The Devil within Satgat" </i> </strong> that reached <strong>100K+ global purchases</strong> and contributed to <strong>252% YoY revenue growth</strong>.<br /><br />
       <a href="./NewCore.md" target="_blank" rel="noopener noreferrer"><strong>View Portfolio</strong></a>
     </td>
-    <td align="center" valign="top">
-      <strong>RaonSecure</strong><br />
-      <sub>AR/XR Platform QA</sub><br /><br />
+    <td align="left" valign="top">
+      <div align="center">
+        <strong>RaonSecure</strong><br />
+        <sub>AR/XR Platform QA</sub>
+      </div>
+      <br />
       Reported <strong>150+ issues</strong> across Client, WebView, and Launcher while validating <strong>40+ AR/XR training modules</strong>.<br /><br />
       <a href="./RaonSecure.md" target="_blank" rel="noopener noreferrer"><strong>View Portfolio</strong></a>
     </td>
