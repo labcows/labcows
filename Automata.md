@@ -65,37 +65,51 @@ My role was to build and maintain stable payment features, provider integrations
 Harmony Transaction was a backend payment-processing service built with FastAPI, SQLAlchemy, and PostgreSQL. The architecture followed a Domain-Driven Design style similar to the structure popularized by *Architecture Patterns with Python*, separating domain behavior, persistence, transaction boundaries, and application orchestration.
 
 ```mermaid
-flowchart TB
-  Client["Online Shopping Mall / Backoffice"] --> API["API"]
-  Recovery["Scheduled Jobs / Recovery Scripts"] --> Worker["Event Consumer / Worker"]
+flowchart LR
+  Client["Online Shopping Mall / Backoffice"] --> API["FastAPI API"]
+  Jobs["Scheduled Jobs / Recovery Scripts"] --> Worker["Internal Worker"]
 
   API --> Bootstrap{"Bootstrap"}
   Worker --> Bootstrap
-  API -- Commands --> Bus["Message Bus"]
+  API -- Commands --> Bus["In-process<br/>Message Bus"]
   Worker -- Commands --> Bus
-  Bootstrap -- Initialize --> Bus
+  Bootstrap -- Wires dependencies --> Bus
 
   subgraph ServiceLayer["Service Layer"]
-    Bus --> Handlers["Handlers"]
+    Bus --> Handlers["Command & Event<br/>Handlers"]
     Handlers --> UoW["Unit of Work"]
   end
 
   subgraph DomainLayer["Domain"]
-    Domain["Payment Domain Logic"]
+    Domain["Payment Domain Model"]
+    Events["Domain Events"]
+    Domain -- Raises --> Events
   end
 
   subgraph Adapters["Adapters"]
-    Repo["Repositories"]
+    Repo["SQLAlchemy<br/>Repositories"]
     DB[("PostgreSQL")]
-    Providers["Payment / Point / Gift Card Providers"]
+    Providers["Payment / Point /<br/>Gift Card APIs"]
   end
 
   Handlers --> Domain
+  Events -- Handled in-process --> Bus
   UoW --> Repo
   Repo --> DB
-  Repo --> Domain
+  Repo -. Rehydrates aggregates .-> Domain
   Handlers --> Providers
-  Providers --> Handlers
+
+  classDef entry fill:#F8FAFC,stroke:#64748B,stroke-width:1px,color:#0F172A;
+  classDef core fill:#EAF4FF,stroke:#2563EB,stroke-width:1.5px,color:#0F172A;
+  classDef domain fill:#ECFDF5,stroke:#059669,stroke-width:1.5px,color:#064E3B;
+  classDef adapter fill:#FFF7ED,stroke:#EA580C,stroke-width:1.5px,color:#7C2D12;
+  classDef data fill:#F1F5F9,stroke:#475569,stroke-width:1.5px,color:#0F172A;
+
+  class Client,Jobs,API,Worker entry;
+  class Bootstrap,Bus,Handlers,UoW core;
+  class Domain,Events domain;
+  class Repo,Providers adapter;
+  class DB data;
 ```
 
 | Component | Role |
@@ -103,8 +117,8 @@ flowchart TB
 | **Domain** | Encapsulated core payment business logic and state transitions for transactions, payments, refunds, cancellations, subscriptions, point usage, coupons, and gift cards without depending directly on infrastructure concerns. |
 | **Repository** | Wrapped SQLAlchemy queries and exposed access to domain aggregates. |
 | **UnitOfWork** | Managed SQLAlchemy session life-cycles and provided atomic commit/rollback behavior through context-manager based transaction handling. |
-| **MessageBus** | Dispatched commands and domain events to registered handlers for payment creation, payment-gateway callbacks, cancellations, refunds, subscriptions, and external API side effects. |
-| **Bootstrap** | Wired concrete dependencies such as UnitOfWork implementations, external payment-gateway and point clients, repositories, and message producers into handlers. |
+| **MessageBus** | Dispatched commands and domain events in-process to registered handlers for payment creation, payment-gateway callbacks, cancellations, refunds, subscriptions, and external API side effects. |
+| **Bootstrap** | Wired concrete dependencies such as UnitOfWork implementations, external payment-gateway and point clients, repositories, and handler maps into the in-process MessageBus. |
 
 ## Actions
 
