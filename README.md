@@ -33,7 +33,9 @@ These are technologies I have used across professional work and personal project
 </p>
 
 
-## 🚂 Some of My Proudest Achievements
+## 🚂 Achievements
+
+Here are selected portfolio pages showing some of my proudest achievement as Software Engineer and QA Analyst.
 
 <table>
   <tr>
