@@ -65,38 +65,41 @@ My role was to build and maintain stable payment features, provider integrations
 Harmony Transaction was a backend payment-processing service built with FastAPI, SQLAlchemy, and PostgreSQL. The architecture followed a Domain-Driven Design style similar to the structure popularized by *Architecture Patterns with Python*, separating domain behavior, persistence, transaction boundaries, and application orchestration.
 
 ```mermaid
-flowchart LR
-  Client["Online Shopping Mall / Backoffice"] --> API["FastAPI API"]
-  Jobs["Scheduled Jobs / Recovery Scripts"] --> Worker["Internal Worker"]
+%%{init: {"theme": "base", "themeVariables": {"fontSize": "18px", "fontFamily": "Inter, Arial, sans-serif"}, "flowchart": {"nodeSpacing": 22, "rankSpacing": 28, "curve": "basis"}} }%%
+flowchart TB
+  subgraph EntryPoints["Entry Points"]
+    direction LR
+    Client["Online Shopping Mall<br/>Backoffice"] --> API["FastAPI API"]
+    Jobs["Scheduled Jobs<br/>Recovery Scripts"] --> Worker["Internal Worker"]
+  end
 
   API --> Bootstrap{"Bootstrap"}
   Worker --> Bootstrap
-  API -- Commands --> Bus["In-process<br/>Message Bus"]
-  Worker -- Commands --> Bus
-  Bootstrap -- Wires dependencies --> Bus
 
   subgraph ServiceLayer["Service Layer"]
+    direction LR
+    Bus["In-process<br/>Message Bus"]
     Bus --> Handlers["Command & Event<br/>Handlers"]
     Handlers --> UoW["Unit of Work"]
   end
+  Bootstrap --> Bus
 
-  subgraph DomainLayer["Domain"]
+  subgraph CoreModel["Domain"]
     Domain["Payment Domain Model"]
-    Events["Domain Events"]
-    Domain -- Raises --> Events
   end
 
   subgraph Adapters["Adapters"]
+    direction LR
     Repo["SQLAlchemy<br/>Repositories"]
     DB[("PostgreSQL")]
     Providers["Payment / Point /<br/>Gift Card APIs"]
   end
 
   Handlers --> Domain
-  Events -- Handled in-process --> Bus
   UoW --> Repo
   Repo --> DB
   Repo -. Rehydrates aggregates .-> Domain
+  Domain -. Domain events .-> Bus
   Handlers --> Providers
 
   classDef entry fill:#F8FAFC,stroke:#64748B,stroke-width:1px,color:#0F172A;
@@ -107,7 +110,7 @@ flowchart LR
 
   class Client,Jobs,API,Worker entry;
   class Bootstrap,Bus,Handlers,UoW core;
-  class Domain,Events domain;
+  class Domain domain;
   class Repo,Providers adapter;
   class DB data;
 ```
