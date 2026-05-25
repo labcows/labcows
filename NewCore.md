@@ -4,14 +4,16 @@
 
 Served as QA analyst to successfully launch “[The Devil Within: Satgat](https://store.steampowered.com/app/1802880/The_Devil_Within_Satgat/)” (the company’s first-ever PC/Console title) while collaborating with a team of 10+. Created 2,000+ test cases and executed 10+ full system tests and 20+ build regression test cycles.
 
+<p align="center">
+  <img src="./assets/Satgat%20-%20intro.png" width="100%" alt="The Devil Within Satgat gameplay introduction image" />
+</p>
+
 | Metric | Value |
 | --- | --- |
 | Global purchases | 100K+ |
 | Steam user review score | 7.9 / 10.0 |
 | PS5 user review score | 4.24 / 5.0 |
 | Company YoY revenue growth | 252% |
-
-**Company Website:** [NewCore Games](https://www.newcoregames.com/)
 
 ## Background
 
@@ -54,7 +56,19 @@ Caught launch-risk defects and escalated recurring inconsistencies as system-lev
 | **Level Design QA** | Authored structured QA reports for missing platforms and meshes, level streaming desync, cameras, and collision artifacts. |
 | **UI/UX** | Proposed system-level fixes for save-point safety, loading-screen consistency, reward quantity formatting, skill-cost visibility, and cross-language layout robustness. |
 
+<p align="center">
+  <img src="./assets/Satgat%20-%20skill.png" width="100%" alt="The Devil Within Satgat skill UI image" />
+</p>
+
+<p align="center">
+  <sub>Example gameplay screenshot</sub>
+</p>
+
 ## Results
+
+<p align="center">
+  <img src="./assets/Satgat%20-%20review.png" width="75%" alt="The Devil Within Satgat review score image" />
+</p>
 
 | Metric | Result |
 | --- | --- |
