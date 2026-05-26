@@ -37,7 +37,14 @@ NewCore Games is a South Korean indie game studio with 200K+ total downloads acr
   <sub>Three titles from NewCore Games.</sub>
 </p>
 
-I joined during the final development phase, when Stage 4, the final boss battle, ending sequence, credits, and polish work still had to be validated against a fixed December launch date. My role was to run regression and full-system tests, write test cases for late-stage content, surface crash and progression-blocking defects, and flag system-level UX issues before they reached players.
+## My Role/Responsibilities
+
+I joined during the final development phase, when Stage 4, the final boss battle, ending sequence, credits, and polish work still had to be validated against a fixed December launch date. 
+
+My role was to:
+1: Run regression and full-system tests
+2: Write test cases for late-stage content, surface crash and progression-blocking defects
+3: Flag system-level UX issues before they reached players
 
 ## Tech Stack
 
@@ -65,14 +72,18 @@ Built broad test coverage across content, platforms, languages, and release-cand
 
 | Focus | Contribution |
 | --- | --- |
-| **Test planning** | Created 2,000+ test cases for Stage 4, the final boss fight, boss-retry / boss-challenge modes, and full regression passes. |
-| **Content coverage** | Tested all five game levels, the hub, side missions, final battle, boss-retry / boss-challenge modes, and the public demo build. |
-| **Build validation** | Ran 10+ full system tests and 20+ regression cycles across editor, Win64 release-candidate builds, and the demo editor. |
-| **Reproduction quality** | Attached step-by-step reproduction steps, save files, gameplay video, screenshots, crash dumps, and logs so engineers could reproduce issues. |
-| **Localization test** | Tested 8 languages and reported subtitle mismatches, fallback text, glyph spacing artifacts, and item-name truncation. |
+| **Test Planning** | Created 2,000+ test cases for Stage 4, the final boss fight, boss-retry / boss-challenge modes, and full regression passes. |
+| **Content Coverage** | Tested all five game levels, the hub, side missions, final battle, boss-retry / boss-challenge modes, and the public demo build. |
+| **Build Validation** | Ran 10+ full system tests and 20+ regression cycles across editor, Win64 release-candidate builds, and the demo editor. |
+| **Reproduction Quality** | Attached step-by-step reproduction steps, save files, gameplay video, screenshots, crash dumps, and logs so engineers could reproduce issues. |
+| **Localization Test** | Tested 8 languages and reported subtitle mismatches, fallback text, glyph spacing artifacts, and item-name truncation. |
 
 <p align="center">
   <img src="./assets/Satgat%20-%20boss.png" width="75%" alt="The Devil Within Satgat gameplay introduction image" />
+</p>
+
+<p align="center">
+  <sub>Stage 1 Boss Battle</sub>
 </p>
 
 ### Defect Discovery and System-Level Highlights

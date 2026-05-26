@@ -6,7 +6,8 @@
 
 ## Project Summary
 
-Served as QA analyst for *Metademy*, an AR/XR metaverse-based education platform, during an accelerated rebuild from Unity to Unreal Engine. Validated Unreal Client, WebView, and Launcher builds, reported 150+ issues, and supported release readiness across 40+ training modules.
+Served as QA analyst for RaonSecure’s *Metademy*, an AR/XR metaverse-based education platform, during an accelerated rebuild from Unity to Unreal Engine. Validated Unreal Client, WebView, and Launcher builds, reported 150+ issues, and supported release readiness across 40+ training modules.
+
 
 <p align="center">
   <img src="./assets/Metademy%20-%20Image.png" width="100%" alt="Metademy banner" />
@@ -30,6 +31,13 @@ Served as QA analyst for *Metademy*, an AR/XR metaverse-based education platform
 
 RaonSecure is a South Korean security and authentication company serving enterprise and public-sector clients, with approximately $44M USD in 2025 revenue. Its education platform, *Metademy*, required QA coverage across gameplay-like client behavior, account integrity, content access, and cross-build consistency.
 
+Metademy's AR/XR education platform offered hands-on virtual occupational training for college students and young professionals across a variety of topics including:
+- Health Care
+- IT Skill Training
+- Vocational Training
+- Languages
+- Vehicles & Machinery Training
+
 <table>
   <tr>
     <td width="50%" align="center">
@@ -45,7 +53,16 @@ RaonSecure is a South Korean security and authentication company serving enterpr
   <sub>Examples of AR/XR training modules validated during pre-launch QA.</sub>
 </p>
 
-I joined after the project pivoted from Unity to Unreal Engine, which forced a ground-up rebuild under a compressed launch timeline. My role was to validate the Unreal Client, WebView, and Launcher, clarify shifting requirements with PMs, build reusable test cases, and surface client crashes, login failures, infinite-loading paths, and authorization risks before enterprise users encountered them.
+## My Role/Responsibilities
+
+I joined after the project pivoted from Unity to Unreal Engine, which forced a ground-up rebuild under a compressed launch timeline. 
+
+My role was to:
+1: Validate the Unreal Client, WebView, and Launcher
+2: Clarify shifting requirements with PMs
+3: Build reusable test cases
+4: Surface client crashes, login failures, infinite-loading paths, and authorization risks before enterprise users encountered them
+
 
 ## Tech Stack
 

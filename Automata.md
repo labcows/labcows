@@ -2,7 +2,7 @@
 
 ## Project Summary
 
-Served as backend engineer for Automata's online payment systems, processing over $500K per month in transactions across card payments, points, coupons, gift cards, subscriptions, refunds, cancellations, and backoffice operations.
+Served as backend engineer for creating Automata's B2B online payment systems used in enterprise-level clients’ online stores. In total, these systems process over $500K per month in transactions across card payments, points, coupons, gift cards, subscriptions, refunds, cancellations, and backoffice operations.
 
 | Metric | Result | Impact |
 | --- | --- | --- |
@@ -11,12 +11,12 @@ Served as backend engineer for Automata's online payment systems, processing ove
 | **$500K+/mo** | Transaction | Supported systems processing over $500K/month in online transactions |
 | **99.9%** | Reliability | Helped maintain 99.9% payment success rates. |
 | **8+** | Partner payment options | Helped partners offer more valuable checkout options by integrating 5+ payment gateway providers, 3+ external point providers, and gift card provider flows. |
-|**10 min to 1 sec**| Teamwork | Reduced Customer Service team's operation cost from 10 minutes to 1 second by making a backoffice interface |
+|**10 min to 1sec**| Operational efficiency | Reduced Automata’s Customer Service team's time spent tracking buyer rewards for clients from 10 minutes to 1 second by creating an automated backoffice interface. |
 
 
 ## Background
 
-[Automata](https://www.automata.ooo/) is a B2B online shopping platform service that provides branded online shopping mall infrastructure, including website operations and online payment systems, for major enterprise clients. In 2023, Automata served over 10 B2B clients and generated $2.7M in annual revenue.
+[Automata](https://www.automata.ooo/) is a B2B online shopping platform service that provides branded online shopping mall infrastructure, including website operations and online payment systems, for major enterprise clients. In 2023, Automata served over 10 enterprise-level B2B clients and generated $2.7M in annual revenue.
 
 <table>
   <tr>
@@ -44,6 +44,8 @@ Served as backend engineer for Automata's online payment systems, processing ove
     <a href="https://www.shoppingeasy.co.kr/" target="_blank" rel="noopener noreferrer">ShoppingEasy</a>
   </sub>
 </p>
+
+## My Role/Responsibilities
 
 When I joined in December 2022, the payment system was expanding across multiple marketplaces while the number of launched online stores increased by 60% during my tenure. The platform needed to evolve beyond card payments and support points, coupons, gift cards, subscriptions, and provider-specific checkout rules.
 
@@ -84,7 +86,7 @@ Harmony Transaction was a backend payment-processing service built with FastAPI,
 
 ### Development Highlights
 
-Developed core payment features, external provider integrations, and automated billing pipelines.
+Expanded core payment features to include more external provider integrations, and automated billing pipelines.
 
 | Focus | Contribution |
 | --- | --- |
@@ -104,9 +106,9 @@ Ensured mission-critical system stability by patching validation gaps, optimizin
 | --- | --- |
 | **Hardening Checkout Validation** | Preemptively blocked invalid checkout attempts by discovering and patching gaps in existing payment validation logic for amounts and quantities. |
 | **Calculation Logic Hotfix** | Protected payment integrity by identifying a critical gift card calculation flaw and deploying a hotfix to prevent underpaid transactions. |
-| **Query optimization** | Resolved an N+1 query bottleneck through eager loading, capping database execution at 3 queries regardless of data volume in the affected flow. |
-| **Concurrency fix** | Diagnosed and resolved an asyncio concurrency bug that caused silent payment data loss under load; reproduced it with a targeted concurrency probe and secured transaction integrity by isolating Unit of Work injection per message. |
-| **Test coverage** | Strengthened safe refactoring by building a testing pyramid across unit, integration, and E2E tests with over 75% coverage for core business logic. |
+| **Query Optimization** | Resolved an N+1 query bottleneck through eager loading, capping database execution at 3 queries regardless of data volume in the affected flow. |
+| **Concurrency Fix** | Diagnosed and resolved an asyncio concurrency bug that caused silent payment data loss under load; reproduced it with a targeted concurrency probe and secured transaction integrity by isolating Unit of Work injection per message. |
+| **Test Coverage** | Strengthened safe refactoring by building a testing pyramid across unit, integration, and E2E tests with over 75% coverage for core business logic. |
 
 ## Results
 
@@ -117,7 +119,7 @@ Ensured mission-critical system stability by patching validation gaps, optimizin
 | **$500K+/mo** | Transaction | Supported systems processing over $500K/month in online transactions |
 | **99.9%** | Reliability | Helped maintain 99.9% payment success rates. |
 | **8+** | Partner payment options | Helped partners offer more valuable checkout options by integrating 5+ payment gateway providers, 3+ external point providers, and gift card provider flows. |
-|**10 min to 1 sec**| Teamwork | Reduced Customer Service team's operation cost from 10 minutes to 1 second by making a backoffice interface |
+|**10 min to 1sec**| Operational efficiency | Reduced Automata’s Customer Service team's time spent tracking buyer rewards for clients from 10 minutes to 1 second by creating an automated backoffice interface. |
 
 
 ## Takeaways
