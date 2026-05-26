@@ -4,17 +4,8 @@ Hi, I'm Hyunwoo, a software engineer with experience building global e-commerce 
 
 Open Work Permit holder based in SK, Canada 🇨🇦
 
-
-<div align="center">
-  <a href="https://www.linkedin.com/in/hyunwoo-cheon/" target="_blank" rel="noopener noreferrer">
-    <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="mailto:milcamboo@gmail.com" target="_blank" rel="noopener noreferrer">
-    <img alt="Email" src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-</div>
-
 <br></br>
+
 ## 🎥 Skills
 
 These are technologies I have used across professional work and personal projects. I proactively learn the languages and tools with curiosity 👀 to solve the problem. 
