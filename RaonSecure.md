@@ -9,7 +9,7 @@
 Served as QA analyst for *Metademy*, an AR/XR metaverse-based education platform, during an accelerated rebuild from Unity to Unreal Engine. Validated Unreal Client, WebView, and Launcher builds, reported 150+ issues, and supported release readiness across 40+ training modules.
 
 <p align="center">
-  <img src="./assets/Metademy%20-%20image.png" width="100%" alt="Metademy banner" />
+  <img src="./assets/Metademy%20-%20Image.png" width="100%" alt="Metademy banner" />
 </p>
 
 <p align="center">
