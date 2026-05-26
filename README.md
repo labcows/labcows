@@ -59,7 +59,7 @@ Selected case studies showing business impact, technical ownership, and product-
     <td align="left" valign="top">
       <div align="center">
         <strong>Automata</strong><br />
-        <sub>Backend Payment Systems</sub>
+        <sub>Backend Engineer - Payment Systems</sub>
       </div>
       <br />
       <strong>$500K+ monthly payment volume</strong> across enterprise shopping-mall operations while helping maintain <strong>99.9% payment reliability</strong>.<br /><br />
@@ -70,7 +70,7 @@ Selected case studies showing business impact, technical ownership, and product-
     <td align="left" valign="top">
       <div align="center">
         <strong>NewCore Games</strong><br />
-        <sub>Console / PC Game QA</sub>
+        <sub>QA - Console / PC Game QA</sub>
       </div>
       <br />
       Shipping <strong><i>"The Devil within Satgat" </i> </strong> that reached <strong>100K+ global purchases</strong> and contributed to <strong>252% YoY revenue growth</strong>.<br /><br />
@@ -81,7 +81,7 @@ Selected case studies showing business impact, technical ownership, and product-
     <td align="left" valign="top">
       <div align="center">
         <strong>RaonSecure</strong><br />
-        <sub>AR/XR Platform QA</sub>
+        <sub>QA - AR/XR Platform</sub>
       </div>
       <br />
       Reported <strong>150+ issues</strong> across Client, WebView, and Launcher while validating <strong>40+ AR/XR training modules</strong>.<br /><br />
