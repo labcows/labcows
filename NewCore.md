@@ -25,7 +25,7 @@ NewCore Games is a South Korean indie game studio with 200K+ total downloads acr
       <img src="./assets/Satgat%20-%20imzombie.png" height="220" alt="I Am Zombie by NewCore Games" />
     </td>
     <td width="33%" align="center" valign="middle">
-      <img src="./assets/Satgat%20-%20satgat.png" height="220" alt="The Devil Within Satgat by NewCore Games" />
+      <img src="./assets/Satgat%20-%20background.png" height="220" alt="The Devil Within Satgat by NewCore Games" />
     </td>
     <td width="33%" align="center" valign="middle">
       <img src="./assets/Satgat%20-%207trials.png" height="220" alt="7 Trials by NewCore Games" />
