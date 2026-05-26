@@ -14,7 +14,7 @@ Open Work Permit holder based in SK, Canada 🇨🇦
   </a>
 </div>
 
-
+<br></br>
 ## 🎥 Skills
 
 These are technologies I have used across professional work and personal projects. I proactively learn the languages and tools with curiosity 👀 to solve the problem. 
@@ -32,6 +32,7 @@ These are technologies I have used across professional work and personal project
   <img alt="Jira" src="https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white" />
 </p>
 
+<br></br>
 
 ## 🚂 Achievements
 
@@ -92,13 +93,13 @@ Selected case studies showing business impact, technical ownership, and product-
   </tr>
 </table>
 
-
+<br></br>
 
 ## 🚎 Outside of Work
 
 I enjoy yoga, meditation, and spending time around nature. I also like observing wildlife 🐌, trees 🌴, and flowers 🌺 near the lake where I live.
 
-
+<br></br>
 
 ## 🙌 Open To Solving Problems Together
 
