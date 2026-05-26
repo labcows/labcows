@@ -19,6 +19,24 @@ Served as QA analyst to successfully launch “[The Devil Within: Satgat](https:
 
 NewCore Games is a South Korean indie game studio with 200K+ total downloads across three titles. In 2024, the studio launched its first PC/console title, *The Devil Within: Satgat*, which reached 100K+ global purchases.
 
+<table>
+  <tr>
+    <td width="33%" align="center">
+      <img src="./assets/Satgat%20-%20imzombie.png" height="180" alt="I Am Zombie by NewCore Games" />
+    </td>
+    <td width="33%" align="center">
+      <img src="./assets/Satgat%20-%20satgat.png" height="180" alt="The Devil Within Satgat by NewCore Games" />
+    </td>
+    <td width="33%" align="center">
+      <img src="./assets/Satgat%20-%207trials.png" height="180" alt="7 Trials by NewCore Games" />
+    </td>
+  </tr>
+</table>
+
+<p align="center">
+  <sub>Three titles from NewCore Games.</sub>
+</p>
+
 I joined during the final development phase, when Stage 4, the final boss battle, ending sequence, credits, and polish work still had to be validated against a fixed December launch date. My role was to run regression and full-system tests, write test cases for late-stage content, surface crash and progression-blocking defects, and flag system-level UX issues before they reached players.
 
 ## Tech Stack
@@ -30,7 +48,16 @@ I joined during the final development phase, when Stage 4, the final boss battle
 | **Jira** | Filed, triaged, and verified issue tickets with full reproduction steps, attached video, screenshots, save files, and crash dumps; tracked fixes across editor and packaged builds. |
 | **Google Sheets** | Wrote and tracked test cases for Stage 4, the final boss fight, boss-retry / boss-challenge modes, and regression tests. |
 
+
 ## Actions
+
+<p align="center">
+  <img src="./assets/Satgat%20-%20skill.png" width="75%" alt="The Devil Within Satgat skill UI image" />
+</p>
+
+<p align="center">
+  <sub>Example gameplay screenshot</sub>
+</p>
 
 ### QA Execution Highlights
 
@@ -44,6 +71,10 @@ Built broad test coverage across content, platforms, languages, and release-cand
 | **Reproduction quality** | Attached step-by-step reproduction steps, save files, gameplay video, screenshots, crash dumps, and logs so engineers could reproduce issues. |
 | **Localization test** | Tested 8 languages and reported subtitle mismatches, fallback text, glyph spacing artifacts, and item-name truncation. |
 
+<p align="center">
+  <img src="./assets/Satgat%20-%20boss.png" width="75%" alt="The Devil Within Satgat gameplay introduction image" />
+</p>
+
 ### Defect Discovery and System-Level Highlights
 
 Caught launch-risk defects and escalated recurring inconsistencies as system-level quality concerns.
@@ -56,13 +87,6 @@ Caught launch-risk defects and escalated recurring inconsistencies as system-lev
 | **Level Design QA** | Authored structured QA reports for missing platforms and meshes, level streaming desync, cameras, and collision artifacts. |
 | **UI/UX** | Proposed system-level fixes for save-point safety, loading-screen consistency, reward quantity formatting, skill-cost visibility, and cross-language layout robustness. |
 
-<p align="center">
-  <img src="./assets/Satgat%20-%20skill.png" width="75%" alt="The Devil Within Satgat skill UI image" />
-</p>
-
-<p align="center">
-  <sub>Example gameplay screenshot</sub>
-</p>
 
 ## Results
 
