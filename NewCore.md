@@ -19,16 +19,16 @@ Served as QA analyst to successfully launch “[The Devil Within: Satgat](https:
 
 NewCore Games is a South Korean indie game studio with 200K+ total downloads across three titles. In 2024, the studio launched its first PC/console title, *The Devil Within: Satgat*, which reached 100K+ global purchases.
 
-<table>
+<table align="center" border="0" cellpadding="6">
   <tr>
-    <td width="33%" align="center">
-      <img src="./assets/Satgat%20-%20imzombie.png" height="180" alt="I Am Zombie by NewCore Games" />
+    <td width="33%" align="center" valign="middle">
+      <img src="./assets/Satgat%20-%20imzombie.png" height="220" alt="I Am Zombie by NewCore Games" />
     </td>
-    <td width="33%" align="center">
-      <img src="./assets/Satgat%20-%20satgat.png" height="180" alt="The Devil Within Satgat by NewCore Games" />
+    <td width="33%" align="center" valign="middle">
+      <img src="./assets/Satgat%20-%20satgat.png" height="220" alt="The Devil Within Satgat by NewCore Games" />
     </td>
-    <td width="33%" align="center">
-      <img src="./assets/Satgat%20-%207trials.png" height="180" alt="7 Trials by NewCore Games" />
+    <td width="33%" align="center" valign="middle">
+      <img src="./assets/Satgat%20-%207trials.png" height="220" alt="7 Trials by NewCore Games" />
     </td>
   </tr>
 </table>
