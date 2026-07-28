@@ -2,7 +2,7 @@
 
 Hi, I'm Hyunwoo, a software engineer with experience building global e-commerce payment systems 💵 and performing QA for video games 📼 and AR/XR training platforms.
 
-Open Work Permit holder based in SK, Canada 🇨🇦
+Open Work Permit holder based in Canada 🇨🇦
 
 <br></br>
 
