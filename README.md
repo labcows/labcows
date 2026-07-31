@@ -14,7 +14,6 @@ These are technologies I have used across professional work and personal project
   <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
   <img alt="C++" src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" />
   <img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
-  <img alt="Three.js" src="https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=threedotjs&logoColor=white" />
   <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
   <img alt="SQLAlchemy" src="https://img.shields.io/badge/SQLAlchemy-D71F00?style=for-the-badge&logo=sqlalchemy&logoColor=white" />
   <img alt="Git" src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
@@ -24,7 +23,7 @@ These are technologies I have used across professional work and personal project
 
 <br></br>
 
-## 🚂 Some of My Proudest Achievements
+## 🚂 Some of My Proudest Work
 
 Selected case studies showing business impact, technical ownership, and product-quality improvements.
 
@@ -78,6 +77,35 @@ Selected case studies showing business impact, technical ownership, and product-
       Reported <strong>150+ issues</strong> across Client, WebView, and Launcher while validating <strong>40+ AR/XR training modules</strong>.<br /><br />
       <div align="center">
         <a href="./RaonSecure.md" target="_blank" rel="noopener noreferrer"><strong>View Portfolio</strong></a>
+      </div>
+    </td>
+  </tr>
+</table>
+
+<br></br>
+
+## 🧪 Personal Projects
+
+Things I build from scratch to understand how the hard parts actually work.
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/labcows/BlueFootedBooby" target="_blank" rel="noopener noreferrer">
+        <img src="./assets/Hero%20-%20Cornell%20Box.png" width="420" alt="Cornell Box path-traced render with glass and metal spheres" />
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td align="left" valign="top">
+      <div align="center">
+        <strong>Blue-Footed Booby</strong><br />
+        <sub>Monte Carlo Path Tracer - C++17 / DirectX 11 / GLM / Dear ImGui</sub>
+      </div>
+      <br />
+      A physically-based renderer with <strong>from scratch</strong> - every ray/light-transport line written by hand. Global illumination, soft shadows, glass, and metal <i>emerge</i> from the rendering equation. A hand-built tile-based thread pool made it <strong>~10× faster</strong> - 77 s → 7.8 s per frame - and the result is verified <strong>pixel-identical</strong> to the serial render across all 1.44 M pixels. <br /><br />
+      <div align="center">
+        <a href="https://github.com/labcows/BlueFootedBooby" target="_blank" rel="noopener noreferrer"><strong>View Project</strong></a>
       </div>
     </td>
   </tr>
