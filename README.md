@@ -2,7 +2,7 @@
 
 Hi, I'm Houston, a software engineer with experience building global e-commerce payment systems 💵 and performing QA for video games 📼 and AR/XR training platforms.
 
-Open Work Permit holder based in Canada 🇨🇦
+Based in Canada 🇨🇦
 
 <br></br>
 
